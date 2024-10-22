@@ -1,0 +1,22 @@
+.statistics{
+    height: 20vh;
+    width: 90vw;
+    margin: 7px auto 7px auto;
+    background-color: rgb(248, 185, 107);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+@media  screen and (min-width: 576px) {
+    .statistics{
+        margin: 15px auto 15px auto;
+        height: 22vh;
+        width: 35vw;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+    .statistics{
+        width: 30vw;
+    }
+}

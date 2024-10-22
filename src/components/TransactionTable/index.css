@@ -1,0 +1,104 @@
+.table{
+    width: 90vw;
+    background-color: rgb(248, 185, 107);
+    min-height: 30vh;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 2px 5px 2px;
+}
+
+.id{
+    font-size: 7px;
+    width: 5vw;
+    height: 5px;
+    text-align: center;
+}
+
+.title{
+    font-size: 7px;
+    width: 10vw;
+    text-align: center;
+    height: 10px;
+    height: 5px;
+
+}
+
+.description{
+    font-size: 7px;
+    width: 25vw;
+    text-align: center;
+    height: 5px;
+}
+
+.sold{
+    font-size: 7px;
+    width: 5vw;
+    text-align: center;
+    height: 5px;
+}
+
+.price{
+    font-size: 7px;
+    width: 5vw;
+    text-align: center;
+    height: 5px;
+}
+
+.category{
+    font-size: 7px;
+    width: 5vw;
+    text-align: center;
+    height: 5px;
+}
+
+.image{
+    height: 20px;
+    width: 18px;
+    font-size: 7px;
+    text-align: center;
+}
+
+.pagination-container{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 4px;
+}
+
+.pagination{
+    font-size: 10px;
+    color: rgb(97, 96, 96);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 576px){
+    .id,.title,.description,.sold,.price,.category{
+        font-size: 10px;
+        height: 5px;
+    }
+    .image{
+        font-size: 10px;
+        height: 23px;
+        width: 20px;
+    }
+    .pagination{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .id,.title,.description,.sold,.price,.category{
+        font-size: 15px;
+    }
+    .image{
+        height: 30px;
+        width: 18px;
+        font-size: 15px;
+    }
+    .pagination{
+        font-size: 14px;
+    }
+}
